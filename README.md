@@ -156,5 +156,15 @@
 
             - tabindex --> tabIndex
 
+11. Props (Properties): 
+
+    - It is the optional input that a react component can accept.
+
+    - It allows the component to be dynamic.
+
+    - Passing information among components using props.
+
+    - Note:```Props are immutable``` or in simple words their values cannot be changed i.e. ```Props are read only```.
+
     
 
