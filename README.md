@@ -131,6 +131,30 @@
     - These are the new features that lets you use state and other react features like lifecycle methods without writing a class.
 
     - Hooks are introduced in functional components.
-    
+
+10. JSX:
+
+    - JavaScript XML (JSX) - It is an extension to the JavaScript language syntax.
+
+    - Write XML like code for elements and components.
+
+    - JSX tags have a tag name, attributes, and children.
+
+    - It makes your react code simpler and elegant.
+
+    - It ultimately transpiles to pure JavaScript which is understood by the browser.
+
+    - JSX differences:
+
+        - class --> className
+
+        - for --> htmlFor
+
+        - camelCase property naming convention:
+
+            - onclick --> onClick
+
+            - tabindex --> tabIndex
+
     
 
