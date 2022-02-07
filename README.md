@@ -158,7 +158,18 @@
 
 ### State:
 
-- 
+- State is managed within the component.
 
+- State can be changed i.e. ```State can be updated```.
+
+### setState:
+
+- Always make use of setState and never modify the state directly.
+
+- If a certain code has to be executed after the state has been updated? Place that code in the callback function which is the second argument to the setState method.
+
+### Destructuring props and state:
+
+- 
     
 

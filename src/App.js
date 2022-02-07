@@ -1,4 +1,6 @@
 import './App.css';
+import SetState from './components/ClassComponents/SetState';
+import State from './components/ClassComponents/State';
 import Greet from './components/Greet';
 import User from './components/User';
 import Welcome from './components/Welcome';
@@ -22,7 +24,7 @@ function App() {
       {/* <WithoutJSX /> */}
 
       {/* Passing Props to a component */}
-      <User name="Clark" heroName="Superman" >
+      {/* <User name="Clark" heroName="Superman" >
         <p> 
           Superpower: flight, superhuman strength, x-ray vision, heat vision, cold breath, super-speed, enhanced hearing, and nigh-invulnerability.
         </p> 
@@ -31,7 +33,13 @@ function App() {
         <button> Call Batmobile </button> 
       </User>
       <User />
-      <User name="Diana" heroName="Wonder Woman" />
+      <User name="Diana" heroName="Wonder Woman" /> */}
+
+      {/* State */}
+      {/* <State /> */}
+
+      {/* setState */}
+      <SetState />
 
 
     </div>
