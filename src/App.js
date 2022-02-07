@@ -1,5 +1,6 @@
 import './App.css';
 import ClassClick from './components/ClassComponents/ClassClick';
+import EventBind from './components/ClassComponents/EventBind';
 import SetState from './components/ClassComponents/SetState';
 import State from './components/ClassComponents/State';
 import FunctionClick from './components/FunctionalComponents/FunctionClick';
@@ -44,9 +45,11 @@ function App() {
       {/* <SetState /> */}
 
       {/* event handling */}
-      <FunctionClick />
-      <ClassClick />
+      {/* <FunctionClick /> */}
+      {/* <ClassClick /> */}
 
+      {/* Binding Event Handlers */}
+      <EventBind />
 
     </div>
   );
