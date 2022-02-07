@@ -1,170 +1,164 @@
-# React.js
+## React.js
+### What is Reat.js?
 
-1. What is Reat.js?
+- Open source library for building user interfaces.
 
-    - Open source library for building user interfaces.
+- Not a framework.
 
-    - Not a framework.
+- Focuse on UI.
 
-    - Focuse on UI.
+- Rich ecosystem.
+### Why learn React.js?
 
-    - Rich ecosystem.
+- Created and maintained by Facebook.
 
-2. Why learn React.js?
+- Huge community.
 
-    - Created and maintained by Facebook.
+- In demand skillset.
 
-    - Huge community.
+- Component Based Architecture
 
-    - In demand skillset.
+- Component Reusable code.
 
-    - Component Based Architecture
+- React is declarative.
 
-    - Component Reusable code.
+    - Tell React what you want and react will build the actual UI.
 
-    - React is declarative.
+    - React will handle efficiently updating and rendering of the components.
 
-        - Tell React what you want and react will build the actual UI.
+    - DOM updates are handled gracefully in React.
+
+- Seamlessly integrate react into any of your application.
+
+- React Native for mobile applications.
+### Create React App:
+
+- https://reactjs.org/docs/create-a-new-react-app.html
+### React.js Project Folder Structure:
+
+- package.json:
+
+    - This file contains the dependencies and the scripts required for the project.
+
+- node_modules folder:
+
+    - This is the folder in which all the dependencies are installed.
+
+- public folder:
+
+    - It contains the static files likes html, images, logo, svg etc.
+
+- src folder:
+
+    - src/index.js
+
+        - This file is the starting point of the react project.
     
-        - React will handle efficiently updating and rendering of the components.
+    - src/App.js
 
-        - DOM updates are handled gracefully in React.
+        - This file is the root component specified insdie the index.js file.
 
-    - Seamlessly integrate react into any of your application.
+        - It is responsible for the HTML displayed in the browser i.e. App.js represents the view which er see in the browser.
 
-    - React Native for mobile applications.
+    - src/App.css
 
+        - Styling for the App.js file.
 
-3. Create React App:
+    - src/index.css
 
-    - https://reactjs.org/docs/create-a-new-react-app.html
+        - Styling for the index.js file.
+### Components in react.js:
 
-4. React.js Project Folder Structure:
+- It describes the part of a react application.
 
-    - package.json:
+- They are re-usable and can be nested inside other components.
 
-        - This file contains the dependencies and the scripts required for the project.
-    
-    - node_modules folder:
+- All the components come together to describe the whole react application.
 
-        - This is the folder in which all the dependencies are installed.
-    
-    - public folder:
+- Components Types:
 
-        - It contains the static files likes html, images, logo, svg etc.
+    - ```Stateless Functional``` Components.
 
-    - src folder:
+    - ```Stateful Class``` Components.
+### Functional Components:
 
-        - src/index.js
+- It is a JavaScript function that can accept an input of properties(props) and returns HTML(JSX) that describes the UI.
+### Class Components:
 
-            - This file is the starting point of the react project.
-        
-        - src/App.js
+- They are basically ES6 classes, and similar to functional components a class component also can optionally recieve props as input and return HTML(JSX).
 
-            - This file is the root component specified insdie the index.js file.
+- A class component can also maintain a private internal state.
 
-            - It is responsible for the HTML displayed in the browser i.e. App.js represents the view which er see in the browser.
+### Functional V/s Class components:
 
-        - src/App.css
+- Functional component:
 
-            - Styling for the App.js file.
+    - Simple functions
 
-        - src/index.css
+    - Use functional components as much as possible.
 
-            - Styling for the index.js file.
+    - Absence of "this" keyword.
 
-5. Components in react.js:
+    - Solution with using state.
 
-    - It describes the part of a react application.
+    - Mainly responsible for the UI.
 
-    - They are re-usable and can be nested inside other components.
+    - Stateless/Dumb/Presentational
 
-    - All the components come together to describe the whole react application.
+- Class components:
 
-    - Components Types:
+    - More feature rich.
 
-        - ```Stateless Functional``` Components.
+    - Maintain their own private data - state.
 
-        - ```Stateful Class``` Components.
-    
-6. Functional Components:
+    - Complex UI logic.
 
-    - It is a JavaScript function that can accept an input of properties(props) and returns HTML(JSX) that describes the UI.
+    - Provide lifecycle methods.
 
-7. Class Components:
+    - Stateful/Smart/Container.
+### Introducing Hooks:
 
-    - They are basically ES6 classes, and similar to functional components a class component also can optionally recieve props as input and return HTML(JSX).
+- These are the new features that lets you use state and other react features like lifecycle methods without writing a class.
 
-    - A class component can also maintain a private internal state.
+- Hooks are introduced in functional components.
 
+### JSX:
 
-8. Functional V/s Class components:
+- JavaScript XML (JSX) - It is an extension to the JavaScript language syntax.
 
-    - Functional component:
+- Write XML like code for elements and components.
 
-        - Simple functions
+- JSX tags have a tag name, attributes, and children.
 
-        - Use functional components as much as possible.
+- It makes your react code simpler and elegant.
 
-        - Absence of "this" keyword.
+- It ultimately transpiles to pure JavaScript which is understood by the browser.
 
-        - Solution with using state.
+- JSX differences:
 
-        - Mainly responsible for the UI.
+    - class --> className
 
-        - Stateless/Dumb/Presentational
-    
-    - Class components:
+    - for --> htmlFor
 
-        - More feature rich.
+    - camelCase property naming convention:
 
-        - Maintain their own private data - state.
+        - onclick --> onClick
 
-        - Complex UI logic.
+        - tabindex --> tabIndex
 
-        - Provide lifecycle methods.
+### Props (Properties): 
 
-        - Stateful/Smart/Container.
+- It is the optional input that a react component can accept.
 
-9. Introducing Hooks:
+- It allows the component to be dynamic.
 
-    - These are the new features that lets you use state and other react features like lifecycle methods without writing a class.
+- Passing information among components using props.
 
-    - Hooks are introduced in functional components.
+- Note:```Props are immutable``` or in simple words their values cannot be changed i.e. ```Props are read only```.
 
-10. JSX:
+### State:
 
-    - JavaScript XML (JSX) - It is an extension to the JavaScript language syntax.
-
-    - Write XML like code for elements and components.
-
-    - JSX tags have a tag name, attributes, and children.
-
-    - It makes your react code simpler and elegant.
-
-    - It ultimately transpiles to pure JavaScript which is understood by the browser.
-
-    - JSX differences:
-
-        - class --> className
-
-        - for --> htmlFor
-
-        - camelCase property naming convention:
-
-            - onclick --> onClick
-
-            - tabindex --> tabIndex
-
-11. Props (Properties): 
-
-    - It is the optional input that a react component can accept.
-
-    - It allows the component to be dynamic.
-
-    - Passing information among components using props.
-
-    - Note:```Props are immutable``` or in simple words their values cannot be changed i.e. ```Props are read only```.
+- 
 
     
 
